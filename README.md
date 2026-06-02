@@ -76,6 +76,16 @@ Thevenin’s equivalent circuit
 
 13.	Theoretically verify the Thevenin’s theorem.
 
+## **OBSERVATION TABLE: THEVENIN'S THEOREM**
+
+| S.No | Parameter: $V_{\text{in}}$ (Volt) | $R_L$ ($\Omega$) | $R_{TH}$ ($\Omega$) | Theoretical Value: $V_{TH}$ (Volt) | Theoretical Value: $I_L = \frac{V_{TH}}{R_L + R_{TH}}$ (mA) | Practical Value: $V_{TH}$ (V) | Practical Value: $I_L$ (mA) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| 1. | 2 | 1K | 795 | 1 | 0.55 | 1 | 0.56 |
+| 2. | 4 | 1K | 795 | 2 | 1.11 | 2 | 1.12 |
+| 3. | 6 | 1K | 795 | 3 | 1.67 | 3 | 1.68 |
+| 4. | 8 | 1K | 795 | 4 | 2.23 | 4 | 2.24 |
+| 5. | 10 | 1K | 795 | 5 | 2.79 | 5 | 2.80 |
+
 
 ## **RESULT:**
 Thus the Thevenin's theorem is verified theoretically and practically successfully.
