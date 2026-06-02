@@ -1,26 +1,23 @@
-# 4.VERIFICATION-OF-THEVENIN-S-THEOREM
+# VERIFICATION-OF-THEVENIN-S-THEOREM
 
-**AIM:**
+## **AIM:**
 
 To verify Thevenin’s theorem practically and theoretically for the given DC circuit.
 
-**APPARATUS REQUIRED**:
+## **APPARATUS REQUIRED:**
 
-1.	Regulated Power supply ( RPS)	(0-30 V)	1
+| SL.NO | APPARATUS | SPECIFICATION | QUANTITY |
+| :---: | :--- | :---: | :---: |
+| 1 | Regulated Power Supply (RPS) | (0-30 V) | 1 |
+| 2 | Voltmeter | (0-30 V) MC | 1 |
+| 3 | Ammeter | (0 - 10 mA) MC | 1 |
+| 4 | Resistors | 470 Ω, 560 Ω, 1 KΩ | 2, 1, 1 |
+| 5 | Bread board | — | 1 |
+| 6 | Multimeter | — | 1 |
 
-2.	Voltmeter	(0-30 V) MC	1
+## **THEORY:**
 
-3.	Ammeter	( 0 - 10 mA) MC	1
-
-4.	Resistors	470 Ω 560 Ω 1 K Ω	2 1 1
-
-5.	Bread board	---	1
-
-6.	Multimeter	---	1
-
-**THEORY:**
-
-**THEVENIN’S THEOREM:**
+### **THEVENIN’S THEOREM:**
 
 Thevenin’s theorem states that, ‘a linear two-terminal circuit can be replaced by an equivalent circuit consisting of a voltage source, VTh (= Voc) in series with a resistor RTh, where VTh is the open-circuit voltage at the load terminals and RThis the input or equivalent resistance at the load terminals( AB) when the independent sources are turned off’.
 
@@ -32,7 +29,7 @@ Thevenin’s Resistance, RTh:
 
 It is the look-back resistance across the load terminals when all the sources are replaced by their internal resistances. An ideal voltage source is replaced by short- circuiting as its internal resistance is zero. An ideal current source is replaced by open- circuiting as its internal resistance is infinity.
  
-**CIRCUIT DIAGRAM: VERIFICATION OF THEVENIN’S THEOREM**
+## **CIRCUIT DIAGRAM: VERIFICATION OF THEVENIN’S THEOREM**
 
 To measure IL
 
@@ -51,7 +48,7 @@ Thevenin’s equivalent circuit
 <img width="313" height="164" alt="image" src="https://github.com/user-attachments/assets/2de70f30-9d20-46c2-a05d-2cf793137885" />
 
 
-**PROCEDURE:**
+## **PROCEDURE:**
 
 1.	Make the connections as per the Circuit Diagram:1
 
@@ -77,4 +74,8 @@ Thevenin’s equivalent circuit
     Thevenin’s Theorem IL = VTh/ ( RTh+ R L)
     Norton’s Theorem IL = IN * RN / ( RN + RL )
 
-13.	Theoretically verify the Norton’s theorem.
+13.	Theoretically verify the Thevenin’s theorem.
+
+
+## **RESULT:**
+Thus the Thevenin's theorem is verified theoretically and practically successfully.
